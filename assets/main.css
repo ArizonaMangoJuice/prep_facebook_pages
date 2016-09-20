@@ -1,0 +1,251 @@
+/* Header setting */
+.top-bar{
+  font-family: arial, sans-serif;
+  background: #3b5998;
+  top: 0;
+  height: 80px;
+}
+#facebook{
+  display: inline-block;
+  font-weight: 800;
+  font-size: 38px;
+  text-decoration: none;
+  color: #fff;
+  padding-left: 12%;
+  padding-top: 1%;
+}
+.table-login{
+  display: inline-block;;
+  float: right;
+  margin-top: 20px;
+  margin-right: 14%;
+}
+.table-login input{
+  margin-right: 17px;
+}
+.pass-email{
+  font-family: arial, sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  vertical-align: text-top;
+}
+#button{
+  background-color: #6d84b4;
+  border: 1px solid #000;
+}
+#forgot-password{
+  font-size: 12px;
+  vertical-align: middle;
+  color: #afbdd4;
+}
+/*Main content settings */
+.main{
+  font-family: arial,sans-serif;
+  background: #edf0f5;
+  height: 608px;
+  width: 100%
+}
+.col-2-3{
+  display: inline-block;
+  width: 60%;
+}
+#bold-header{
+  font-family: arial, sans-serif;
+  font-size: 36px;
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 16%;
+  margin-top: 8%;
+}
+.icon-boxes{
+  display: block;
+  position: relative;;
+  width: 704px;
+  height: 80px;
+}
+.icons{
+  display: inline-block;
+  margin-left: 185px;
+  margin-top: 6%;
+  height: 50px;
+  width: 51px;
+
+}
+.first-sentence{
+  font-family: arial,sans-serif;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  display: inline-block;
+  padding-left: 3%;
+  position: absolute;
+  top: 55px;
+}
+.second-sentence{
+  font-family: arial,sans-serif;
+  font-size: 15px;
+  line-height: 20px;
+  color: #666;
+  display: inline-block;
+  padding-left: 4%;
+  position: absolute;
+  top: 56px;
+  margin-left: 210px;
+  text-align: left;
+}
+#fix-er{
+  position: absolute;
+  width: 400px;
+  left: -30px;
+}
+#fix-er-upper{
+  position: absolute;
+  width: 400px;
+  left: -90px;
+  padding-left: 4%;
+}
+/* Sidebar sign up Settings */
+.col-1-3{
+  width: 40%;
+  float: right;
+  clear: both;
+}
+.second-line{
+  display: inline-block;
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+  font-family: arial,sans-serif;
+  font-size: 36px;
+}
+.second-line p{
+  font-size: 19px;
+  padding-top: 5%;
+}
+.first-last-name{
+  height: 40px;
+  width: 600px;
+  border-color: #bdc7d8;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.first-last-name input{
+  font-family: arial,sans-serif;
+  font-size: 18px;
+  color: #bdc7d8;
+  border-radius: 4px;
+  background-color: white;
+  min-height: 30px;
+  min-width: 150px;
+}
+.long-form{
+  height: 40px;
+  width: 600px;
+  margin-bottom: 10px;
+}
+.long-form input{
+  font-family: arial,sans-serif;
+  font-size: 18px;
+  color: #bdc7d8;
+  min-width: 386px;
+  min-height: 30px;
+  border-radius: 4px;
+  border-color: #bdc7d8;
+}
+.birthday{
+  font-family: arial,sans-serif;
+  font-size: 19px;
+  margin-bottom: 10px;
+}
+.select-bday{
+  font-family: arial,sans-serif;
+  margin-bottom: 20px;
+}
+.select-bday select{
+  border: 1px solid #bdc7d8;
+  height: 30px;
+}
+.select-bday a{
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 12px;
+  color: #365899;
+  text-decoration: none;
+}
+.gender{
+  font-family: arial,sans-serif;
+  font-size: 19px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.side-links{
+  text-decoration: none;
+  color: #365899
+}
+.side-links:hover{
+  text-decoration: underline;
+}
+.agreement{
+  font-family: arial,sans-serif;
+  font-size: 12px;
+  display: block;
+  width: 400px;
+  margin-bottom: 20px;
+}
+.agreement p{
+  color: #777;
+}
+.sign-button{
+  display: inline-block;
+  font-family: arial,sans-serif;
+  height: 59px;
+  vertical-align: middle;
+}
+#button-settings{
+  border-radius: 5px;
+  background-color: #69a74e;
+  font-size: 24px;
+  color: #fff;
+  height: 40px;
+  width: 194px;
+}
+#button-settings:hover{
+  background: linear-gradient(#67ae55, #578843);
+  background-image: linear-gradient(rgb(103, 174, 85), rgb(87, 136, 67));
+  box-shadow: inset 0 1px 1px #a4e388;
+  vertical-align: middle;
+}
+.create-page{
+  font-size: 13px;
+  border-top: 1px solid #dddfe2;
+  padding-top: 10px;
+  width: 399px;
+}
+.create-page a{
+  display: inline;
+}
+.create-page p{
+  display: inline;
+}
+
+/*
+.text-icon{
+  font-family: arial, sans-serif;
+  font-size: 24px;
+  display: inline-block;
+  width: 565px;
+  margin-left: 19%;
+}
+.text-icon h3{
+  text-align: center;
+}
+.icons{
+  display: inline-flex;
+  padding-right: 3%;
+  align-self: baseline;
+
+}
+.smaller-text{
+  font-size: 18px;
+  display: inline;
+}*/
