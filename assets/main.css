@@ -1,5 +1,6 @@
 /* Header setting */
 .top-bar{
+  width: 100%;
   font-family: arial, sans-serif;
   background: #3b5998;
   top: 0;
@@ -12,7 +13,7 @@
   text-decoration: none;
   color: #fff;
   padding-left: 12%;
-  padding-top: 1%;
+  padding-top: .98%;
 }
 .table-login{
   display: inline-block;;
@@ -292,6 +293,98 @@ footer{
   margin-right: auto;
   width: 1000px;
 }
+/* About me .html */
+.search-bar{
+  position: absolute;
+  margin-top: 26px;
+  margin-left: 40px;
+  display: inline-block;
+}
+.search-bar input{
+  height: 20px;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+}
+.search-button{
+  display: inline-block;
+  position: absolute;
+  margin-top: 27px;
+  margin-left: 870px;
+}
+.search-button input{
+  border: 1px solid #000;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 18px;
+  height: 25px;
+  width: 75px;
+}
+.search-button input:hover{
+  border-color: #29487d;
+  background-color: #4267b2;
+  color: #fff;
+}
+.user-menu{
+  display: inline-block;
+  position: absolute;
+  margin-top: 0;
+  margin-left: 1080px;
+}
+.user-menu a{
+  font-size: 32px;
+  color: #f2f2f2;
+  text-decoration: none;
+}
+.large-picture{
+  display: inline-flex;
+  margin: auto;
+  height: 350px;
+  width: 1100px;
+  background-image: url("/Users/kahlua/Desktop/prep_facebook_pages/assets/images/Large-image.jpg");
+}
+.nav-bar{
+  display: inline-block;
+  font-family: arial,sans-serif;
+  border: 1px solid #000;
+  height: 30px;
+  width: 1098px;
+  margin-left: 410px;
+  display: inline-block;
+  text-align: center;
+}
+.nav-bar a{
+  border: 1px solid #000;
+  border-bottom: 0 ;
+  padding: 8px 15px;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: #365899;
+}
+.nav-bar a:hover{
+  text-decoration: underline;
+}
+.nav-bar ul{
+  display: inline-block;
+  margin-top: 6px;
+}
+.nav-bar li{
+  display: inline;
+}
+/* user icon */
+/*.user-picture{
+  border: 1px solid #fff;
+  display: inline-block;
+}
+.user-picture img{
+  position: relative;
+  height: auto;
+  width: auto;
+  max-width: 140px;
+  max-height: 140px;
+  margin-right: -1000px;
+}*/
 /*
 .text-icon{
   font-family: arial, sans-serif;
