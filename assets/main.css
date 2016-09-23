@@ -458,7 +458,7 @@ footer{
   display: block;
   border: 1px solid #000;
   border-top: 0;
-  height: 650px;
+  height: 700px;
   margin-top: 80px;
   max-width: 1098px;
   margin-left: 90px;
@@ -515,6 +515,60 @@ footer{
   margin-right: 300px;
   margin-top: 50px;
   margin-bottom: 20px;
+}
+/* Friends.hmtl settings */
+.friends-box{
+  display: inline-block;
+  background-color: #f2f2f2;
+  margin: 0 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #000;
+  height: 180px;
+  width: 469px;
+}
+.friends-box img{
+  display: inline-block;
+  max-height: 160px;
+  border: 1px solid #000;
+  border-radius: 120px;
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.friends-box a{
+  font-family: arial,sans-serif;
+  font-size: 22px;
+  color: #365899;
+  display: inline-block;
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.friends-box p{
+  font-family: arial,sans-serif;
+  font-size: 16px;
+  color: #777;
+  display: inline-block;
+  position: absolute;
+  margin-top: 85px;
+  margin-left: 20px;
+}
+.friends-box input{
+  display: inline-block;
+  position: absolute;
+  font-family: arial,sans-serif;
+  border-radius: 1px;
+  border-color: #e6e6e6;
+  background-color: #e6e6e6;
+  height: 30px;
+  margin-top: 65px;
+  margin-left: 185px;
+}
+.box-1{
+  position: absolute;
+  display: inline-block;
+  float: right;
+  margin-left: 0;
 }
 /* user icon */
 /*.user-picture{
